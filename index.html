@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>Teclado MIDI Acordeón</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Teclado MIDI Acordeón</h1>
+        <div id="keyboard-container">
+            <div id="piano-keyboard">
+                <!-- Las teclas se generarán con JavaScript -->
+            </div>
+        </div>
+        <div class="status">
+            <p>Estado MIDI: <span id="midi-status">No conectado</span></p>
+        </div>
+    </div>
+    
+    <!-- Precargar audios -->
+    <div id="audio-container" style="display: none;">
+        <!-- Los audios se cargarán con JavaScript -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

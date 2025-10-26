@@ -1,0 +1,27 @@
+{
+  "name": "teclado-midi-acordeon",
+  "version": "1.0.0",
+  "description": "Aplicación de teclado MIDI para acordeón",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.6.4"
+  },
+  "build": {
+    "appId": "com.teclado.midi",
+    "productName": "Teclado MIDI Acordeón",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "piano/piano.png"
+    }
+  }
+}
